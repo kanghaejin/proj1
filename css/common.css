@@ -28,6 +28,16 @@ button{outline:0}
 
 /****************메인화면, 서브화면 공통영역 ************************************/
 .inner{min-width:1024px;max-width:1280px;margin:0 auto;}
+
+
+#nav_pop{position:fixed;width:100%; min-width:1024px;height:100%;overflow:auto;
+      background-color:orange;z-index:9999999999; display:none;}
+#nav_pop .navpop_inner{width:1024;margin:0 auto;}
+#nav_pop #nav_logo{position:absolute; text-indent:-999999px}
+#nav_pop #nav_logo .nav_close{position:absolute;top:0;right:0}
+#nav_pop  .depth1 > li{width:25%;float:left;margin-bottom:100px;}
+#nav_pop  .depth1 > li a {font-size:1.3rem;margin-bottom:20px;display:block;}
+#nav_pop  .depth1 ul{}
  #header .top_icon{float:right;
       width:215px;height:75px;
      }
