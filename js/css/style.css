@@ -1,0 +1,174 @@
+
+h2{font-size:1.875rem;display:inline-block;
+    margin-right:35px; margin-top:110px; margin-bottom:35px;}
+#sec3 > h2:first-child{margin-right:75px;}
+h3{font-size:0.937rem;display:inline-block;
+    margin-top:1rem; margin-bottom:35px;}
+
+#top_popup{}
+#top_popup img{width:100%; min-width:1024px; z-index:1px}
+#top_popup .close{position:absolute; right:100px;top:0; text-indent:-999999999px;
+                 background:none; z-index:9999px;border:none;width:30px;height:30px;}
+#top_popup .close:before{position:absolute;content:''; display:block;width:2px; height:30px;
+                    background-color:#777; transform:rotate(45deg);top:0px;z-index:9999px}
+#top_popup .close:after{position:absolute;content:'';display:block;width:2px;height:30px;
+    background-color:#777;transform:rotate(-45deg);top:0px;z-index:9999px}
+
+/*********************section****************************/
+
+#sec2 .inner{position:relative}
+#sec2 .notice,#sec2 .purp{/*width:500px;*/width:calc((100% - 50px)/2);height:100px;
+    background-color:rgba(0,0,0,0.5); color:#fff;
+    position:absolute;bottom:5px;overflow:hidden;text-align: center;}
+#sec2 .notice span,#sec2 .purp span{font-weight:bold;margin-right:1.8rem;}
+
+#sec2 .notice{left:0;}
+#sec2 .notice div{top:calc((100% - 50px)/2);margin-top:calc(50px);margin-bottom:calc(50px + 1rem);}
+#sec2 .purp{right:0;}
+#sec2 .purp div{top:calc((100% - 50px)/2);margin-top:calc(50px - 1rem);margin-bottom:calc(50px + 0.5rem);}
+#sec2 .purp div a{margin-right:2rem;}
+/************************sec3*********************************************/
+
+
+#sec3 .inner > div {margin-right:35px; width:calc((100% - 70px) / 3);
+            height:400px;box-sizing:border-box;
+            overflow: hidden;
+            border:1px solid #E6E6E6;float:left;
+            position:relative;}
+#sec3 .inner > div:after{content:'';display:block;clear:both}
+#sec3 .inner > div:last-child{margin-right:0}
+#sec3:after{content:'';display:block;clear:both;}
+/*#sec3 img{width:400px;position:relative; left:calc(50% - 200px)} 그림사이즈의 절반을 땡기면 가운데로옴*/
+#sec3 .inner > div a{display:block;height:400px;box-sizing:border-box;}
+#sec3 .inner > div a:before{content:''; display:block;
+                            width:0;height:0;
+                            position:absolute;top:0;left:0;
+                             border:4px solid transparent}
+#sec3 .inner > div:hover a:before{width:calc(100% - 8px);height:calc(100% - 8px);
+                    border-top-color:#78a743;; border-right-color:#78a743;;
+                    transition:width 0.4s, height 0.4s 0.4s}
+#sec3 .inner > div a:after{content:''; display:block;
+                     width:0;height:0;
+                    position:absolute;bottom:0;right:0;
+                    border:4px solid transparent}
+#sec3 .inner > div:hover a:after{width:calc(100% - 8px);height:calc(100% - 8px);
+                                border-bottom-color:#78a743; border-left-color:#78a743;;
+                                transition:width 0.4s, height 0.4s 0.4s}
+#sec3 .clinic_txt{display:none;top:6rem; left:calc(50% - 7.7rem);font-size:1.2rem}
+#sec3 .inner > div .btn button{transition:0.5s; width:100px;height:50px; border:0;
+                            top:5rem;left:300px;}
+#sec3 .inner > div .btn{top:5rem;left:300px}            
+#sec3 .inner > div:hover{background-color:rgba(0,0,0,0.2)}
+#sec3 .inner > div:hover button{background-color:#b7fbfe;}
+#sec3 .inner > div .clinic_txt{text-align:center;}
+#sec3 .inner > div:hover .clinic_txt{display:block;position:absolute}
+#sec3 .inner > div:hover .clinic_img{display:none; position:relative }
+#sec3 .inner > div .clinic_img{overflow:hidden}
+#sec3 .inner > div .clinic_img img{width:503px; height:403px}
+#sec3 .inner .tit{position:absolute; left:calc(100% - 251px - 0.8rem);
+top:35px; font-size:2rem; color:#fff}
+#sec3 .inner .tit1{position:absolute; left:calc(100% - 251px - 0.8rem );text-align: center;
+    top:35px; font-size:2rem;color:#888}
+#sec3 .inner > div:hover .tit1{color:#fff}
+
+/*****************sec4*******************************/
+
+#sec4 .inclinic_img{margin-right:35px;
+                    width:33.5%;
+                    overflow: hidden;
+                    height:359px;
+                    box-sizing:border-box;
+                    float:left;
+                    background-color:violet;}
+#sec4 .inclinic_img img{width:100%;
+                        height:150%;
+                        top:100px;}
+#sec4 .inclinic2_img{
+                        width:calc(66.5% - 35px);
+                        overflow: hidden;
+                        height:359px;
+                        box-sizing:border-box;
+                        float:left;
+                        background-color:wheat;}
+#sec4 .inclinic2_img img{width:100%;
+                        height:130%;}
+/*******************sec5********************************/
+
+#sec5 h2, #sec5 h3{display:block;}
+#sec5 .sec5_title{width:400px;float:left;margin-right:35px;
+                margin-top:110px; overflow:hidden;
+                }
+#sec5 .sec5_title img {width:180%;height:250%;}              
+#sec5 .sec5_cont{width:calc(100% - 435px); float:left;position:relative}
+
+/************************************************/
+#sec6{width:100%; min-width:1024px;position:relative;margin:0 auto}
+#sec6 > img{height:0.35%;opacity:50%;}
+#sec6 .play{position:absolute;left:50%;top:50%;}
+#sec6 .play img{width:115px;height:115px;}
+/***********************sec7*******************************/
+#sec7 .pic a{
+    width:calc((100% - 15px )/4);
+    margin-right:5px;
+    overflow: hidden;
+    height:305px;
+    box-sizing:border-box;
+    float:left;
+    
+    font-size:1.5rem;
+    text-align:center;
+   } 
+#sec7 .pic .last{margin-right:0}
+#sec7 .pic img{width:110%;height:100%}
+#sec7 .pic .sec_p > img{width:95%; height:105%;}
+/*{width:calc(100% - (5 * 3)) / 4; height:305px; 
+            box-sizing: border-box;  overflow:hidden;
+            background-color:yellowgreen; float:left}*/
+#sec7 .pic a {box-sizing:border-box;
+                float:left;
+                
+                } 
+      #sec7 .pic a{transition:2s}
+      #sec7 .pic:hover img{transform: scale(1.3)}
+/*********************footer****************************/
+#footer > div{background-color:#f8f8f8;
+        height:235px; margin-top:120px;}
+#footer .logo_f {left:0;top:5px; display:inline-block}
+#footer .logo_f img{width:160px; height:calc(width*0.409)}
+#footer .logo_f:after{content:'';display:block;clear:both}
+#footer .sns{float:right; padding-top:1.1rem;}
+#footer .snst{margin-bottom:0.5rem;}
+#footer .sns p{display:inline-block;left:0;}
+#footer .sns img{width:28px;height:28px;float:left;margin-right:5px;}
+#footer .low a {padding-right:2rem;margin-left:2rem; border-right:1px solid #aaa;}
+#footer .low a:first-child {margin-left:0;}
+#footer .f_hr{border:solid 1px #ccc;
+                margin-top:35px; margin-bottom:35px}
+/*****************************quick******************************/
+#quickmenu{width:60px;
+    height:325px;
+    position:fixed;
+    top:100px;right:0;z-index:9999;
+   }
+#quickmenu {border-top:6px solid #b7fbfe;
+    
+    
+    }
+#quickmenu a{background-color:#fff;
+    border-bottom:6px solid #b7fbfe;
+    width:40px;height:40px;
+ display:block;
+
+
+ padding: 15px;
+}
+#quickmenu a:first-child{border-top:none;}
+#quickmenu a:last-child{margin-top:32px; text-align:center;
+                        background-color:#b7fbfe;
+                       color:#777;
+                       padding:10px;
+                       padding-top:0;
+                       padding-bottom:0;
+                                            }
+#quickmenu a > p{}
+#quickmenu a img{width:100%;}
